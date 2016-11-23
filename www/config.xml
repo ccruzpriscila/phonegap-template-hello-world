@@ -49,7 +49,7 @@
     <plugin name="cordova-plugin-statusbar"           source="npm" />
     <plugin name="cordova-plugin-vibration"           source="npm" />
     <plugin name="cordova-plugin-whitelist"           source="npm" />
-    <plugin name="phonegap-plugin-push" version="1.8.4" source="npm">
+    <plugin name="phonegap-plugin-push" source="npm">
         <param name="SENDER_ID" value="12345" />
     </plugin>    
 
