@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.helloworld.julio"
-        version   = "1.0.1">
+        version   = "1.0.2">
 
     <name>Hello World</name>
 
@@ -30,9 +30,7 @@
     <!-- Plugins -->
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status"      source="npm" />
-    <plugin name="cordova-plugin-camera" source="npm">
-        <variable name="CAMERA_USAGE_DESCRIPTION" value="your camera usage message" />
-    </plugin>
+    <plugin name="cordova-plugin-camera"              source="npm" />
     <plugin name="cordova-plugin-media-capture"       source="npm" />
     <plugin name="cordova-plugin-console"             source="npm" />
     <plugin name="cordova-plugin-contacts"            source="npm" />
@@ -172,5 +170,10 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-
+        <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription" overwrite="true">
+    <string>We are using the Photo Library for something..</string>
+  </gap:config-file>
+            <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
+    <string>We are using the Camera for something..</string>
+  </gap:config-file>
 </widget>
