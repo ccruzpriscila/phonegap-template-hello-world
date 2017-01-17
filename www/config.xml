@@ -30,7 +30,9 @@
     <!-- Plugins -->
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status"      source="npm" />
-    <plugin name="cordova-plugin-camera"              source="npm" />
+    <plugin name="cordova-plugin-camera" source="npm">
+        <param name="CAMERA_USAGE_DESCRIPTION" value="your camera usage message here" />
+    </plugin>
     <plugin name="cordova-plugin-media-capture"       source="npm" />
     <plugin name="cordova-plugin-console"             source="npm" />
     <plugin name="cordova-plugin-contacts"            source="npm" />
