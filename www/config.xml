@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.helloworld.julio"
-        version   = "1.0.0">
+        version   = "1.0.1">
 
     <name>Hello World</name>
 
@@ -31,7 +31,7 @@
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status"      source="npm" />
     <plugin name="cordova-plugin-camera" source="npm">
-        <param name="CAMERA_USAGE_DESCRIPTION" value="your camera usage message here" />
+        <variable name="CAMERA_USAGE_DESCRIPTION" value="your camera usage message" />
     </plugin>
     <plugin name="cordova-plugin-media-capture"       source="npm" />
     <plugin name="cordova-plugin-console"             source="npm" />
