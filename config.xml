@@ -27,31 +27,7 @@
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <preference name='phonegap-version' value='cli-7.0.1' />
 
-    <!-- Plugins -->
-    <!-- Core plugins -->
-    <plugin name="cordova-plugin-battery-status"      source="npm" />
-    <plugin name="cordova-plugin-camera"              source="npm" />
-    <plugin name="cordova-plugin-media-capture"       source="npm" />
-    <plugin name="cordova-plugin-console"             source="npm" />
-    <plugin name="cordova-plugin-contacts"            source="npm" />
-    <plugin name="cordova-plugin-device"              source="npm" />
-    <plugin name="cordova-plugin-device-motion"       source="npm" />
-    <plugin name="cordova-plugin-device-orientation"  source="npm" />
-    <plugin name="cordova-plugin-dialogs"             source="npm" />
-    <plugin name="cordova-plugin-file"                source="npm" />
-    <plugin name="cordova-plugin-file-transfer"       source="npm" />
-    <plugin name="cordova-plugin-geolocation"         source="npm" />
-    <plugin name="cordova-plugin-globalization"       source="npm" />
-    <plugin name="cordova-plugin-inappbrowser"        source="npm" />
-    <plugin name="cordova-plugin-media"               source="npm" />
-    <plugin name="cordova-plugin-network-information" source="npm" />
-    <plugin name="cordova-plugin-splashscreen"        source="npm" />
-    <plugin name="cordova-plugin-statusbar"           source="npm" />
-    <plugin name="cordova-plugin-vibration"           source="npm" />
-    <plugin name="cordova-plugin-whitelist"           source="npm" />
-    <plugin name="phonegap-plugin-push" source="npm">
-        <param name="SENDER_ID" value="12345" />
-    </plugin>    
+     
 
     <!-- Define app icon and splashscreen for each platform. -->
     <icon src="www/icon.png" />
@@ -177,4 +153,29 @@
     <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
         <string>We are using the Camera for something..</string>
     </gap:config-file>
+    <!-- Plugins -->
+    <!-- Core plugins -->
+    <plugin name="cordova-plugin-battery-status"      source="npm" />
+    <plugin name="cordova-plugin-camera"              source="npm" />
+    <plugin name="cordova-plugin-media-capture"       source="npm" />
+    <plugin name="cordova-plugin-console"             source="npm" />
+    <plugin name="cordova-plugin-contacts"            source="npm" />
+    <plugin name="cordova-plugin-device"              source="npm" />
+    <plugin name="cordova-plugin-device-motion"       source="npm" />
+    <plugin name="cordova-plugin-device-orientation"  source="npm" />
+    <plugin name="cordova-plugin-dialogs"             source="npm" />
+    <plugin name="cordova-plugin-file"                source="npm" />
+    <plugin name="cordova-plugin-file-transfer"       source="npm" />
+    <plugin name="cordova-plugin-geolocation"         source="npm" />
+    <plugin name="cordova-plugin-globalization"       source="npm" />
+    <plugin name="cordova-plugin-inappbrowser"        source="npm" />
+    <plugin name="cordova-plugin-media"               source="npm" />
+    <plugin name="cordova-plugin-network-information" source="npm" />
+    <plugin name="cordova-plugin-splashscreen"        source="npm" />
+    <plugin name="cordova-plugin-statusbar"           source="npm" />
+    <plugin name="cordova-plugin-vibration"           source="npm" />
+    <plugin name="cordova-plugin-whitelist"           source="npm" />
+    <plugin name="phonegap-plugin-push" source="npm">
+        <param name="SENDER_ID" value="12345" />
+    </plugin>   
 </widget>
