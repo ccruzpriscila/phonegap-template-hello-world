@@ -82,7 +82,7 @@
         <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
             <string>We are using the Photo Library for something...</string>
         </edit-config>
-        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge"> 
+        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="overwrite"> 
             <string>Used to attach photos to your projects</string> 
         </edit-config>
         <icon   src="www/res/icon/ios/icon.png"                         platform="ios" width="57"   height="57" />
