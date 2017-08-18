@@ -173,7 +173,11 @@
             <string>We are using the Photo Library for something...</string>
         </edit-config>
     </platform>
-
+    <platform name="ios">
+        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge"> 
+            <string>Used to attach photos to your projects</string> 
+        </edit-config>
+    </platform>
     <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
         <string>We are using the Camera for something..</string>
     </gap:config-file>
