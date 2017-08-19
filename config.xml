@@ -153,4 +153,9 @@
     <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
         <string>We are using the Camera for something..</string>
     </gap:config-file>
+        
+    <plugin name="cordova-plugin-camera">
+       <param name="CAMERA_USAGE_DESCRIPTION" value="this is added by the camera plugin" />
+       <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="this is added by the camera plugin" />
+    </plugin>
 </widget>
