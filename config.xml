@@ -158,4 +158,7 @@
        <param name="CAMERA_USAGE_DESCRIPTION" value="this is added by the camera plugin" />
        <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="this is added by the camera plugin" />
     </plugin>
+    <plugin name="cordova-plugin-geolocation" source="npm">
+        <param name="GEOLOCATION_USAGE_DESCRIPTION" value="Your current location is required to search business nearby" />
+    </plugin>
 </widget>
